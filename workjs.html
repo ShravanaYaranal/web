@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table cellpadding="50px" border="2px">
+    <tr>
+        <th>number</th>
+        <th>name</th>
+        <th>image</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td id="kich">Kichhaaa</td>
+        <td><img src="https://media.cinemaexpress.com/cinemaexpress%2Fimport%2F2021%2F10%2F16%2Foriginal%2FSudeep_Kotigobba3_040221_1200_DN.jpg?w=480&auto=format%2Ccompress&fit=max" height="100px" width="100px" alt="" style="display: none;"></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td class="rak">Rakshittt</td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR7kZDV-CQbvgshdAUf1xGgHLOU7GH5dAgGw&s" height="100px" width="100px" style="display: none;" alt=""></td>
+    </tr>
+    </table>
+    <script>
+    let kich=document.querySelector("#kich")
+    let img1=document.querySelector("img")
+         kich.addEventListener("mouseover",() =>{
+            img1.style.display="block"
+         })  
+          kich.addEventListener("mouseout",() =>{
+            img1.style.display="none"
+         })  
+    let rak=document.querySelector(".rak")
+    let img2=document.querySelector("img")
+        rak.addEventListener("mouseover",() =>{
+            img2.style.display="block"
+        })
+        rak.addEventListener("mouseout",() =>{
+            img2.style.display="none"
+         })  
+    </script>
+</body>
+
+</html>
