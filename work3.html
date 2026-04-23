@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body>div {
+        height: 100%;
+        width: 100%;
+        background-color: rgb(154, 154, 168);
+        position: absolute;
+        display: flex;
+    }
+    *{
+        margin: 0;
+    }
+
+    body>div:nth-child(1)>img:nth-child(1) {
+        top: 30px;
+        left: 100px;
+        height: 100px;
+        width: 250px;
+        display: flex;
+        position: relative;
+        animation-name: champions;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-iteration-count: 5;
+
+
+    }
+
+    body>div:nth-child(1)>img:nth-child(2) {
+        top: 5px;
+        left: 175px;
+        height: 120px;
+        width: 200px;
+        display: flex;
+        position: relative;
+        animation-name: champions;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-iteration-count: 5;
+
+    }
+
+    body>div:nth-child(1)>img:nth-child(3) {
+        top: 20px;
+        left: 170px;
+        height: 170px;
+        width: 250px;
+        display: flex;
+        position: relative;
+        animation-name: champions;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-iteration-count: 5;
+    }
+    body>div:nth-child(1)>img:nth-child(4){
+        top: 150px;
+        right:200px;
+        height:100px;
+        width:100px;
+        display: flex;
+        position: relative;
+        animation-name:bird;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-iteration-count: 5;
+}
+body>div:nth-child(1)>img:nth-child(5){
+        bottom:0;
+        left:0;
+        height:400px;
+        width: 100%;
+        position:absolute;
+        
+    }
+    body>div:nth-child(1)>img:nth-child(6){
+        bottom:10px;
+        left:150px;
+        height:150px;
+        width: 150px;
+        position: absolute;
+        animation-name: car;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-iteration-count: 5;
+    }
+    body>div:nth-child(1)>img:nth-child(7){
+        bottom: 5px;
+        right: 150px;
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        animation-name: bike;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-iteration-count: 5;
+        animation-direction: reverse;
+    }
+    
+
+    @keyframes champions {
+        from{
+            transform: translateX(-200px);
+        }
+        /* to{
+            transform: translateX(200px);
+        } */
+    }
+    @keyframes bird{
+        from{
+            transform: translateX(-200px);
+            
+        }
+        
+    }
+    @keyframes road{
+        /* from{
+            transform:translateX()
+        } */
+        
+    }
+    @keyframes car {
+     from{
+        transform: translateX(-200px);
+     }
+    }
+    @keyframes bike{
+        from{   
+        transform: translateX(-200px);
+        }
+    }
+</style>
+
+<body>
+    <div>
+        <img src="cloudeeee-removebg-preview.png" alt="">
+        <img src="cloudeeee-removebg-preview.png" alt="">
+        <img src="cloudeeee-removebg-preview.png" alt="">
+        <img src="birds-removebg-preview.png" alt="">
+        <img src="rrrroadddd-removebg-preview.png" alt="">
+        <img src="car-removebg-preview.png" alt="">
+        <img src="biiiikeee-removebg-preview.png" alt="">
+    </div>
+</body>
+
+</html>

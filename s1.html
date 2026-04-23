@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<meta http-equiv="refresh" content="1">
+<style>
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        width: 100%;
+background-color:black;
+/* position: fixed; */
+    }
+
+    * {
+        margin: 0;
+    }
+
+    nav>div:nth-child(1) {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 550px;
+
+    }
+
+    nav>div:nth-child(1)>input {
+        padding: 8px 80px;
+        border-radius: 15px;
+background-color: #121212;    }
+
+    ::placeholder {
+        color: azure;
+
+    }
+
+    .fa-magnifying-glass {
+        position: absolute;
+        top: 28px;
+        left: 220px;
+    }
+
+    .fa-chrome {
+        position: absolute;
+        top: 28px;
+        left: 480px;
+
+    }
+
+    nav>div:nth-child(2) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 550px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+
+    }
+
+    nav>div:nth-child(2)>button {
+        padding: 10px 40px;
+        border-radius: 25px;
+        font-weight: bolder;
+        font-size: 17px;
+    }
+
+    body>div:nth-child(2) {
+background-color: #121212;
+        height: 700px;
+        width: 340px;
+    }
+
+    .fa-plus {
+        position: absolute;
+        left: 210px;
+    }
+
+    body>div:nth-child(2) nav div button {
+        border-radius: 50px;
+        height: 40px;
+        width: 100px;
+        font-weight: bolder;
+
+
+
+    }
+
+    body>div:nth-child(2)>div:nth-child(2) {
+      background-color: #1f1f1f;
+        color: aliceblue;
+        height: 160px;
+        position: relative;
+
+        top: 20px;
+        border-radius: 10px;
+    }
+
+
+    body>div:nth-child(2) h3 {
+        margin-bottom: 20px;
+        position: relative;
+        top: 20px;
+        left: 10px;
+    }
+
+    body>div:nth-child(2) h5 {
+        margin-bottom: 40px;
+        position: relative;
+        top: 20px;
+        left: 10px;
+    }
+
+    body>div:nth-child(2)>div>div:nth-child(1)>button {
+        border-radius: 80px;
+        width: 150px;
+        height: 30px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 5px;
+    }
+
+    .playlist-box {
+       background-color: #1f1f1f;
+        margin-top: 140px;
+        height: 160px;
+        border-radius: 10px;
+    }
+
+    .playlist-box>button {
+        border-radius: 20px;
+        height: 40px;
+
+    }
+    .cont{
+        margin-top: 22px;
+        margin-left: 10px;
+
+    }
+    .b3{
+        border-radius: 50px;
+        margin-top: 20px;
+        width: 80px;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <div>
+
+                <i class="fa-brands fa-spotify fa-xl" style="color: rgb(212, 219, 231);"></i>
+
+                <i class="fa-solid fa-house fa-xl" style="color: rgb(212, 219, 231);"></i>
+
+                <i class="fa-solid fa-magnifying-glass" style="color: rgb(213, 219, 230);"></i>
+
+                <input type="text" placeholder="What do you want to play?" id="">
+                <i class="fa-brands fa-chrome" style="color: rgb(213, 219, 230);"></i>
+
+
+            </div>
+
+            <div>
+
+                <a href="">Premium Support Download</a>
+                <i class="fa-solid fa-download" style="color: rgb(213, 219, 230);"></i>
+                <a href="">Install App</a>
+                <a href="Signup"></a>
+                <button>Log In</button>
+            </div>
+        </nav>
+
+    </header>
+    <div>
+        <nav>
+            <div><a href="">Your Library</a>
+                <i class="fa-solid fa-plus" style="color: rgb(18, 19, 19);"></i>
+                <button> Create</button>
+            </div>
+
+        </nav>
+
+        <div>
+            <div>
+                <h3>Create your first playlist</h3>
+                <h5>It's easy we'll help you</h5>
+                <button>Create playlist</button>
+            </div>
+
+            <div class="playlist-box">
+                <h3>Let's find some podcasts to follow</h3>
+                <h5> We'll keep you updated on new episodes</h5>
+                <button>Browse podcasts</button>
+            </div>
+            <div class="cont">
+                <div class="c1">
+                    <h8>Legal</h8>
+                    <h8>Safety & Privacy Center</h8>
+                    <h8>Privacy Policy</h8>
+
+                </div>
+                <div>
+                    <div class="c2">
+                        <h8>Cookies</h8>
+                        <h8>About Ads</h8>
+                        <h8>Accessibility</h8>
+                    </div>
+                    <div class="c3">
+                        <h8>Cookies</h8>
+                    </div>
+                    <div>
+                        
+                        <button class="b3"> 
+                            <i class="fa-solid fa-earth-asia" style="color: rgb(4, 7, 14);"></i>
+                            English</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+  body{
+            margin:0;
+        }
+
+        nav{
+            height: 50px;
+            width: 100vw;
+            background-color:maroon;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav>div:first-child{
+            width: 70%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        nav>div:last-child{
+            width: 30%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        #container{
+            position: relative;
+            cursor: pointer;
+        }
+
+        #ddown{
+            position: absolute;
+            top: 35px;
+            left: 0;
+            width: 100vw;
+            background-color: white;
+            color: black;
+            display: none;
+            box-shadow: 0px 2px 5px black;
+        }
+
+        #ddown div{
+            padding: 10px;
+        }
+
+        #ddown div:hover{
+            background-color: rgba(95, 158, 160, 0.5);
+            text-decoration: underline;
+        }
+
+        button{
+            cursor: pointer;
+        }
+
+        #sports{
+            position: relative;
+
+        }
+        #ddown1{
+            position: absolute;
+            top: 35px;
+            left:0;
+            width: 100vw;
+            background-color:white;
+            color: black;
+            box-shadow:0px 2px 2px black ;
+            display: none;
+            padding: 30px;
+        }
+        /* #ddown1>div:first-child{
+            position: absolute;
+            top: 35px;
+            left: 0;
+            width: 100vw;
+            background-color: rgb(7, 207, 221);
+            color: black;
+            display: none;
+            box-shadow: 0px 2px 5px black;
+        } */
+    #ddown1{
+        margin: 0;
+    }
+    .abc{
+        display: flex;
+        position: relative;
+    
+    }

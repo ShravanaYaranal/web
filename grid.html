@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            height: 600px;
+            background-color: black;
+            display: grid;
+            grid-template-columns: 30% 30% 30%;
+            grid-template-rows: 50px 250px 100px 100px 50px;
+            justify-content: center;
+            gap: 10px 20px;
+        }
+        main>div{
+            background-color: lightgoldenrodyellow;
+            border: 1px solid black;
+        
+        }
+        main>div:nth-child(1){
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+         main>div:nth-child(2){
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+         main>div:nth-child(3){
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+         main>div:nth-child(4){
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+         main>div:nth-child(5){
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+         main>div:nth-child(6){
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 4;
+            grid-row-end: 5;
+        }
+         main>div:nth-child(7){
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 4;
+            grid-row-end: 5;
+        }
+         main>div:nth-child(8){
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 5;
+            grid-row-end: 6;
+        }
+
+    </style>
+</head>
+<body>
+   <main>
+    <div>grid-items1</div>
+    <div>grid-items2</div>
+    <div>grid-items3</div>
+    <div>grid-items4</div>
+    <div>grid-items5</div>
+    <div>grid-items6</div>
+    <div>grid-items7</div>
+    <div>grid-items8</div>
+   </main>
+</body>
+</html>

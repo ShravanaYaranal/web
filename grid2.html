@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            height: 600px;
+            background-color: black;
+            display: grid;
+            grid-template-areas:"hdr hdr hdr"
+                                "mn  mn  mn "
+                                "mn  mn  mn"
+                                "sc1 sc2 sc3"
+                                "art art asd"
+                                "ftr ftr ftr";
+                                row-gap: 5px;
+                                column-gap:5px ;
+        }
+        main>div{
+            background-color: lightpink;
+            border: black;
+        }
+        main>div:nth-child(1){
+            grid-area: hdr;
+        }
+        main>div:nth-child(2){
+            grid-area: mn;
+        }
+        main>div:nth-child(3){
+            grid-area: sc1;
+        }
+        main>div:nth-child(4){
+            grid-area: sc2;
+        }
+        main>div:nth-child(5){
+            grid-area: sc3;
+        }
+        main>div:nth-child(6){
+            grid-area: art;
+        }
+        main>div:nth-child(7){
+            grid-area: asd;
+        }
+        main>div:nth-child(8){
+            grid-area: ftr;
+        }
+    </style>
+</head>
+<body>
+    <main>
+    <div>grid-items1</div>
+    <div>grid-items2</div>
+    <div>grid-items3</div>
+    <div>grid-items4</div>
+    <div>grid-items5</div>
+    <div>grid-items6</div>
+    <div>grid-items7</div>
+    <div>grid-items8</div>
+   </main>
+</body>
+</html>

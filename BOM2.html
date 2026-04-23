@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let table=document.createElement(table);
+        document.body.appendChild(table);
+        table.setAttribute("border","2");
+
+        let tr1=document.createElement(tr);
+        let th1=document.createElement(th);
+        th1.innerText="name";
+        let th2=document.createElement(th);
+        th2.innerText="image";
+        th1.appendChild(tr);
+        th2.appendChild(tr);
+        table.appendChild(tr);
+        console.log(table);
+        document.body.appendChild(table)
+        
+
+
+
+
+        
+    </script>
+</body>
+</html>

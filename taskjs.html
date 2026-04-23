@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            position: absolute;
+            left:12vw;
+        }
+    </style>
+</head>
+<body>
+    <input id="entertask" type="text" placeholder="enter task">
+    <button id="add">add</button>
+    <ol id="list">list</ol>
+    <script>
+        let entertask=document.querySelector("#enter task")
+        let add=document.querySelector("#add")
+        let list=document.querySelector("#list")
+        let count=1;
+         add.addEventListener("click",()=>{
+        let li=document.createElement("li")
+        li.content="task"+count;
+        ol.body.appendChild("li");
+        count++
+         })
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width:100%;
+    background-color: black;
+}
+*{
+    margin: 0;
+}
+nav>div:nth-child(1){
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 550px;
+}
+nav>div:nth-child(1)>input{
+    padding: 8px 80px;
+    border-radius: 15px;
+    background-color: rgb(59, 58, 58);
+}
+::placeholder{
+    color: white;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    top:34px;
+    left:147px;
+}
+nav>div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:550px ;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+nav>div:nth-child(2)>button{
+    padding: 8px 50px;
+    border-radius: 15px;
+    background-color: white;
+}
+header>div:nth-child(2){
+    background-color: rgb(236, 28, 28);
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    height: 570px;
+    width: 320px;
+    border-radius: 7px;
+
+}
+/* header>div:nth-child(2)>nav>div{
+ color: white;
+ background-color: rgb(20, 20, 20);
+ /* position: relative; */
+ a{top: 75px;
+ left: 20px;
+ /* display: flex;
+ justify-content:start;
+ align-items: start; */
+  font-weight:bolder;
+  font-size: larger;
+} */
+
+header>div:nth-child(2)>nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    width: 280px;
+}
+
+
+.fa-solid fa-circle-plus fa-2xl{
+    position: absolute;
+    top:34px;
+    left: 200px;
+}
+/* div:nth-child(2)>div:nth-child(1){
+    width: 280px;
+    height:340px;
+    background-color: black;
+    display: flex;
+    position: relative;
+} */

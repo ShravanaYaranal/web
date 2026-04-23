@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let div=document.createElement("div")
+        document.body.appendChild(div)
+        console.log(div)
+
+        let p=document.createElement("p")
+        p.innerText="para"
+        div.appendChild(p)
+        console.log(p)
+
+        let img=document.createElement("img")
+        // img.appendChild(img)
+        document.body.appendChild(img)
+        img.setAttribute("height","250px")
+        img.setAttribute("width","300px")
+        img.setAttribute("src","https://cf-img-a-in.tosshub.com/sites/visualstory/wp/2025/06/Kohli-Anushka-4ITG-1748983672808-scaled.jpg?size=*:900")
+        console.log(img)
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <input type="text"> <br> <br>
+    <button>submit</button> -->
+    <div>
+    <img  src="https://akm-img-a-in.tosshub.com/indiatoday/images/photo_gallery/202301/313967536_1291925521594372_3808432128294631150_n_1.jpg?VersionId=apGsoVQ7YawL9C46aFRjM.WnIbSTADaf&size=686:*" height="500px" width="500px" alt="" >
+    </div>
+    <script>
+        // let div=document.querySelector("div")
+        let img=document.querySelector("img")
+        // img.setAttribute('scr',"https://akm-img-a-in.tosshub.com/indiatoday/images/photo_gallery/202301/313967536_1291925521594372_3808432128294631150_n_1.jpg?VersionId=apGsoVQ7YawL9C46aFRjM.WnIbSTADaf&size=686:*")
+        
+        img.addEventListener('mouseover',()=>{
+            img.scr="https://akm-img-a-in.tosshub.com/indiatoday/images/photo_gallery/202301/313967536_1291925521594372_3808432128294631150_n_1.jpg?VersionId=apGsoVQ7YawL9C46aFRjM.WnIbSTADaf&size=686:*"
+        })
+        img.addEventListener('mouseout',()=>{
+            img.scr="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzcERFllIFsDdJbfuzRVpmwOI9ib3u8eiPkg&s"
+        } )
+    </script>
+</body>
+</html>

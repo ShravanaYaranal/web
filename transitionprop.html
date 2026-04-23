@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+         }
+         body{
+            background-color:lightgoldenrodyellow;
+         }
+         body>div:nth-child(3)
+         {
+            height: 500px;
+            width: 500px;
+            background-color: black;
+            position: relative;
+            left: 450px;
+            top: 70px;
+
+         }
+         
+         body>div:nth-child(3)>button
+         {
+            padding: 10px 50px;
+            position:absolute;
+            right: 170px;top:250px;
+            transition-property:background-color,color;
+            transition-duration: 5s 7s;
+            transition-timing-function: linear;
+            transition-delay: 0s 0s;
+            transition: all 5s linear 0s;
+         }
+          body>div:nth-child(3)>button:hover
+          {
+            background-color:aqua;
+            color: red;
+            cursor: pointer;
+            padding: 20px 100px;
+            transform: rotate(360deg);
+            transform: translateX(400px);
+            transform: translateY(400px);
+            transform: scaleX(2);
+            transform: scaleY(2);
+            transform: skewX(80deg);
+            transform:skewY(30deg);
+            transform: translate(-200px); rotate:360deg;
+          }
+
+    </style>
+</head>
+<body>
+    <h1>Transition property in css</h1>
+    <hr>
+    <div>
+        <button>Register</button>
+    </div>
+    
+</body>
+</html>

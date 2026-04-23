@@ -1,0 +1,18 @@
+/* div{
+    height: 400px;
+    width: 300px;
+    background-color: blue;
+    background-image: url("https://filmfare.wwmindia.com/photogallery/2024/dec/viratanushkaanniversary11733903744.jpg");
+    background-size: 300px 400px;
+    background-repeat: no-repeat;
+} */
+
+div{
+    height: 400px;
+    width: 300px;
+    background-color: blue;
+    background-image: url(https://www.orissapost.com/wp-content/uploads/2025/02/Radhika-Pandit.jpg),url(https://www.orissapost.com/wp-content/uploads/2025/02/Radhika-Pandit.jpg),url(https://www.orissapost.com/wp-content/uploads/2025/02/Radhika-Pandit.jpg),url(https://www.orissapost.com/wp-content/uploads/2025/02/Radhika-Pandit.jpg),url(https://www.orissapost.com/wp-content/uploads/2025/02/Radhika-Pandit.jpg),url(https://www.orissapost.com/wp-content/uploads/2025/02/Radhika-Pandit.jpg),url(https://www.orissapost.com/wp-content/uploads/2025/02/Radhika-Pandit.jpg),url(https://www.orissapost.com/wp-content/uploads/2025/02/Radhika-Pandit.jpg),;
+background-repeat: no repeat;
+background-size: 200px 200px;
+background-position: center,center top,center bottom, center right,top right,top left,bottom right,bottom left;
+}

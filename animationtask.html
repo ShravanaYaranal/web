@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span::after{
+            content:"software developer";
+            animation: change 5s linear 0s infinite ;
+        }
+        @keyframes change{
+            0%{
+                 content:"software developer";
+                 color: blue;
+                 text-shadow:burlywood ;
+            }
+            25%{
+                content:"frontend developer";
+                color: blueviolet;
+                text-shadow:black;
+            }
+            50%{
+                content: "middleware developer";
+                color: aqua;
+                text-shadow: yellow;
+            }
+            75%{
+                content: "backend developer";
+                color: chartreuse;
+                text-shadow: blueviolet;
+            }
+            100%{
+                content: "java developer";
+                color: hotpink;
+                text-shadow: brown;
+            }
+            
+        }
+        button{
+            padding:10px 20px;
+            animation: click 5s linear 0s infinite;
+            font-size: 30px;
+        }
+    @keyframes click {
+        0%{
+            transform: scale(1);
+        }
+        50%{
+            transform: scale(1.1);
+        }
+        100%{
+            transform: scale(1);
+        }
+    }
+    h2{
+        opacity:0;
+       animation: glow  4s linear 0s infinite;
+    }
+    @keyframes glow{
+        0%{
+            opacity: 0;
+        }
+        25%{
+            opacity:1;
+        }
+        50%{
+            opacity: 0;
+        }
+        75%{
+            opacity:1;
+        }
+        100%{
+            opacity: 0;
+        }
+        
+    }
+    </style>
+</head>
+<body>
+    <h1>I am <span> </span></h1>
+    <button>click</button>
+    <h2>SHRAVANAAAA....</h2>
+</body>
+</html>
