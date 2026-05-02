@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra Clone | Online Shopping</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <!-- Using a simple colored text/icon for logo since we don't have the image file -->
+                <div class="myntra-icon">
+                    <div class="m-shape"></div>
+                </div>
+            </div>
+
+            <nav class="nav-links">
+                <a href="#">MEN</a>
+                <a href="#">WOMEN</a>
+                <a href="#">KIDS</a>
+                <a href="#">HOME & LIVING</a>
+                <a href="#">BEAUTY</a>
+                <a href="#">STUDIO <sup class="new-tag">NEW</sup></a>
+            </nav>
+
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" placeholder="Search for products, brands and more">
+            </div>
+
+            <div class="action-bar">
+                <div class="action-item">
+                    <i class="fa-regular fa-user"></i>
+                    <span>Profile</span>
+                </div>
+                <div class="action-item">
+                    <i class="fa-regular fa-heart"></i>
+                    <span>Wishlist</span>
+                </div>
+                <div class="action-item bag-icon-container">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span>Bag</span>
+                    <span class="bag-counter" id="bag-count">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Banner -->
+        <section class="hero-banner">
+            <div class="banner-content">
+                <h1>FASHION CLEARANCE SALE</h1>
+                <p>Flat 50% - 80% Off on Top Brands</p>
+                <button class="shop-now-btn">SHOP NOW</button>
+            </div>
+        </section>
+
+        <!-- Product Section -->
+        <section class="products-section">
+            <h2 class="section-title">TRENDING IN MEN'S WEAR</h2>
+
+            <div class="product-grid" id="product-container">
+                <!-- Products will be injected here via JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>ONLINE SHOPPING</h3>
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Kids</a>
+                <a href="#">Home & Living</a>
+                <a href="#">Beauty</a>
+                <a href="#">Gift Cards</a>
+            </div>
+            <div class="footer-column">
+                <h3>CUSTOMER POLICIES</h3>
+                <a href="#">Contact Us</a>
+                <a href="#">FAQ</a>
+                <a href="#">T&C</a>
+                <a href="#">Terms Of Use</a>
+                <a href="#">Track Orders</a>
+                <a href="#">Shipping</a>
+                <a href="#">Cancellation</a>
+            </div>
+            <div class="footer-column">
+                <h3>EXPERIENCE MYNTRA APP ON MOBILE</h3>
+                <div class="app-links">
+                    <img src="https://constant.myartassets.com/microsite/images/google-play-badge.png" alt="Google Play"
+                        class="app-img">
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 www.myntra.com. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
